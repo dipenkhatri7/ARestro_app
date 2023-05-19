@@ -50,11 +50,11 @@ class _BottomNavigationState extends State<BottomNavigation> {
                   Navigator.pushNamed(context, '/Notifications');
                 },
               ),
-              ProfileImage(
-                ispressed: true,
-                radius: 18,
-                images: "assets/images/me2.png",
-              ),
+              // ProfileImage(
+              //   ispressed: true,
+              //   radius: 18,
+              //   images: "assets/images/me2.png",
+              // ),
               const SizedBox(
                 width: 10,
               ),

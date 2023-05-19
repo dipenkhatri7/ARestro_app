@@ -51,7 +51,7 @@ class _CustomButtomState extends State<CustomButtom> {
       child: ElevatedButton(
         onPressed: widget.onPressed,
         style: ElevatedButton.styleFrom(
-          elevation: 8,
+          elevation: 1.5,
           primary: widget.color,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(widget.round),

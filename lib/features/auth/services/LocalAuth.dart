@@ -27,7 +27,7 @@ class LocalAuth {
         localizedReason: "Authenticate to access the app",
         options: const AuthenticationOptions(
           useErrorDialogs: true,
-          // biometricOnly: true,
+          biometricOnly: true,
           stickyAuth: true,
         ),
       );

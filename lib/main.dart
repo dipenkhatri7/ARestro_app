@@ -1,4 +1,6 @@
 import 'package:arestro_app/features/auth/screens/signIn.dart';
+import 'package:arestro_app/features/get_started/getStarted.dart';
+import 'package:arestro_app/features/pages/screens/passwordSuccess.dart';
 import 'package:arestro_app/router.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       onGenerateRoute: (settings) => generateRoute(settings),
-      home: SignIn(),
+      home: GetStarted(),
     );
   }
 }
